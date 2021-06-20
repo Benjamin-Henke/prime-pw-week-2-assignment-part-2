@@ -131,6 +131,10 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// FIX
+// colorOne is set to red but should be set to blue.
+// colorTwo is set to blue but should be set to red.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -148,6 +152,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX:
+// Instructions state 'and' but the code states 'or'. The '||' should be '&&'.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -156,6 +162,10 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge
 // -- it is, so we console.log 'enter'.
+
+// FIX:
+// Instructions state 'greater than or equal to minAge'. We change the code from '<= to >='.
+// Since 'age >= minAge' is true, the correct output is 'no entry'.
 
 /*
 let age = 21;
